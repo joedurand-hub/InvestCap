@@ -1,0 +1,43 @@
+.wrapper {
+  height: 30rem;
+  width: 25rem;
+  color: white;
+  border: rgb(22, 24, 28);;
+  display: flex;
+  flex-direction: column;
+  background: rgb(22, 24, 28);
+}
+
+.selector {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+}
+
+.option {
+  background: rgb(22, 24, 28);
+  color: white;
+  border: none;
+  height: 100%;
+  width: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.option:focus {
+  color: rgb(129, 67, 211);
+}
+
+.option:hover {
+  background-color: #111214;
+}
+
+.wrapper_modal_main {
+  padding: 1rem;
+  flex: 1;
+}

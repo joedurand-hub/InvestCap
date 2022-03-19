@@ -1,0 +1,21 @@
+.content {
+    position: absolute;
+    top: 23%;
+    left: 69%;
+    right: auto;
+    bottom: auto;
+    padding: 0;
+    border: black;
+    overflow: hidden;
+    background-color: #ffff;
+  }
+  
+.overlay {
+    position: absolute;
+    width: 0;
+    padding: 0;
+    top: 1%;
+    left: 69%;
+    border: black;
+    background-color: #000;
+  }

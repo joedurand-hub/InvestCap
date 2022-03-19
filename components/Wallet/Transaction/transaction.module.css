@@ -1,0 +1,41 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+
+}
+
+.span {
+
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.input {
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+  font-size: 1rem;
+  margin-right: 1rem;
+  font-size: 2rem;
+  color: #ffff;
+  max-width: 50%;
+}
+
+
+.send {
+margin-top: 50%;
+}
