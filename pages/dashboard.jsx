@@ -15,10 +15,7 @@ function Dashboard() {
   return (
     <Layout navbar={<NavBar />} footer={<Footer />}>
       <Section>
-     
-        <Modal>
           <SelectorModal />  
-        </Modal>
       </Section>
       <Aside>
         <MarketCuotes>Market</MarketCuotes>

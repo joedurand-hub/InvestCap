@@ -1,11 +1,12 @@
 .wrapper {
-  height: 30rem;
+  height: 27rem;
   width: 25rem;
   color: white;
   border: rgb(22, 24, 28);;
   display: flex;
   flex-direction: column;
   background: rgb(22, 24, 28);
+  border-radius: 15px;
 }
 
 .selector {
@@ -15,6 +16,7 @@
   align-items: center;
   justify-content: center;
   height: 5rem;
+  border-radius: 15px;
 }
 
 .option {
@@ -28,6 +30,7 @@
   font-size: 1.2rem;
   font-weight: 600;
   cursor: pointer;
+  border-radius: 15px;
 }
 .option:focus {
   color: rgb(129, 67, 211);

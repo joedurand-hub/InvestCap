@@ -10,13 +10,13 @@ const Transfer = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.row}>
-        <span>ETH</span>
         <input
           className={styles.input}
           placeholder="0"
           type="text"
           onChange={(e) => setAmount(e.target.value)}
-        />
+          />
+        <span className={styles.span}>ETH</span>
       </div>
       <div className={styles.row}>
         <i className={styles.icon}>{<FaWallet />}</i>
@@ -27,7 +27,7 @@ const Transfer = () => {
           onChange={(e) => setRecipient(e.target.value)}
         />
       </div>
-      <div className={styles.row}>
+      <div className={styles.container_send}>
         <div className={styles.send}>
         <Button variant="primary" name="Enviar" />
         </div>

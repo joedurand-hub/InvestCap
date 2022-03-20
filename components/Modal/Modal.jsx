@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from "./modal.module.css"
 
 const Modal = ({children}) => {
   return (
-    <div>{children}</div>
+    <div className={styles.content}>{children}</div>
   )
 }
 
