@@ -11,7 +11,6 @@ const Balance = () => {
   return (
     <Layout>
         <Sidebar></Sidebar>
-        <Sidebar></Sidebar>
     </Layout>
   )
 }

@@ -1,0 +1,73 @@
+.market {
+  height: 30rem;
+  width: 50rem;
+  padding-top: 25px;
+}
+
+.table {
+  background: rgb(22, 24, 28);
+  padding: 10px;
+}
+
+.container_titles {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.title {
+  padding-left: 15px;
+}
+
+.coin_name {
+  padding-right: -50px;
+  margin-right: -50px;
+  
+}
+.tr:hover {
+  background: rgba(15, 15, 15, 0.726);
+}
+
+.td {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+
+.positive {
+  color: #27ad75;
+}
+
+.negative {
+  color: #ce0d0d;
+
+}
+
+.coin_image {
+  margin-right: 10px;
+}
+
+.coin_symbol {
+}
+
+.search {
+  border: 1px solid rgb(97, 96, 96);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: none;
+  font-size: 2rem;
+  color: #ffff;
+  width: 50rem;
+  padding-left: 0;
+  margin-left: 0;
+  padding-right: 0;
+  margin-right: 0;
+  text-align: center;
+}
+
+.search::placeholder {
+  text-align: center;
+  background: rgb(22, 24, 28);
+}
+

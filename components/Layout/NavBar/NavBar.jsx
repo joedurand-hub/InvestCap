@@ -7,16 +7,13 @@ import { useRouter } from "next/router";
 const NavBar = () => {
   const router = useRouter();
   const { logout, user } = useMoralis();
-
-    const walletAddress = user && user.get("ethAddress");
-
-  console.log(walletAddress)
-
+  const walletAddress = user && user.get("ethAddress");
+  
   const logOut = async () => {
-    await logout();
-    console.log("logged out");
-  }
-
+    router.push('/')
+      await logout();
+   
+    }
 
   return (
     <nav className={styles.navbar_layout}>
@@ -29,7 +26,7 @@ const NavBar = () => {
         <Button
           name={"Desconectar"}
           onClick={() => {
-            logOut() && router.push('/')
+            logOut()
           }}
         />
       </div>

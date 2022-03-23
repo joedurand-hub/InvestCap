@@ -1,9 +1,10 @@
 import Head from "next/head";
 import React from "react";
+import styles from './layout.module.css'
 
 function Layout({ title, description, keywords, children, navbar, footer }) {
   return (
-    <React.Fragment>
+    <div className={styles.layout}>
       <Head>
         <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
@@ -14,9 +15,9 @@ function Layout({ title, description, keywords, children, navbar, footer }) {
         <meta name="keywords" content={keywords} />
       </Head>
       {navbar}
-      <main>{children}</main>
+      <main className={styles.layout_content}>{children}</main>
       {footer}
-    </React.Fragment>
+    </div>
   );
 }
 
